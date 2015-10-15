@@ -1,6 +1,6 @@
 # Travis Encrypt
 
-Service that encrypts a Travis the public key of a repo with a data that is stored on the server, like an AWS key.
+Service that encrypts a Travis public key of a repo with a data that is stored on the server, like an AWS key.
 
 ## How to use
 
