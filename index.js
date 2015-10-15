@@ -3,7 +3,7 @@ var express = require('express');
 
 var PORT = 3000;
 var TOKEN = process.env.GITHUB_TOKEN;
-var DATA = process.env.AWS_KEY || 'test data';
+var DATA = process.env.DATA || 'test data';
 
 var app = express();
 
