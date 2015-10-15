@@ -44,7 +44,7 @@ var getRepoKey = function(pro, ownerName, name, access_token) {
 }
 
 var showErrors = function(res, callback) {
-  res.config.headers.Authorization = 'VTEX: esse campo eh privado';
+  res.config.headers.Authorization = 'travis-encrypt: field removed for security reasons';
   callback(JSON.stringify(res));
 }
 
