@@ -28,3 +28,7 @@ Example|`/encrypt/private/vtex/storefront`
 **GET**|`/encrypt/public/:org/:repo`
 ---|---
 Example|`/encrypt/private/vtex/travis-encrypt`
+
+## License
+
+MIT
