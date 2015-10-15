@@ -9,7 +9,12 @@ repo, user:email, write:repo_hook, read:org.
 
 Run the server with an environment variable with your Github token and with the data that you want to encrypt:
 ```
-DATA=test GITHUB_TOKEN=123 npm start
+DATA=test GITHUB_TOKEN=123 node index.js
+```
+
+You may want to specify which port the server should run with an env variable PORT:
+```
+PORT=4000 DATA=test GITHUB_TOKEN=123 node index.js
 ```
 
 ### Private repos
