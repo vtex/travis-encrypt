@@ -1,0 +1,20 @@
+{
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "quotes": [2, "single"],
+    "strict": [2, "never"],
+    "no-underscore-dangle": [0],
+    "new-cap": [0],
+    "no-unused-vars": [1, {"vars": "all", "args": "after-used"}],
+    "curly": [2, "all"],
+    "no-else-return": [2],
+    "block-spacing": [2, "always"],
+    "brace-style": [2, "1tbs", { "allowSingleLine": true }],
+    "indent": [2, 2],
+    "key-spacing": [2, {"beforeColon": false, "afterColon": true}],
+    "space-before-keywords": [2, "always"],
+    "space-after-keywords": [2]
+  }
+}

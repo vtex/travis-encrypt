@@ -1,0 +1,28 @@
+{
+  "name": "travis-encrypt",
+  "version": "1.0.0",
+  "description": "Service that encrypts a Travis the public key of a repo with a data that is stored on the server, like an AWS key.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vtex/travis-encrypt.git"
+  },
+  "author": "Breno Calazans",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vtex/travis-encrypt/issues"
+  },
+  "homepage": "https://github.com/vtex/travis-encrypt#readme",
+  "dependencies": {
+    "axios": "^0.7.0",
+    "express": "^4.13.3",
+    "node-rsa": "^0.2.25"
+  },
+  "devDependencies": {
+    "eslint": "^1.6.0"
+  }
+}
